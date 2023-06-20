@@ -9,9 +9,11 @@ function App() {
 
   return (
     <div className="container">
-      <InputShortener setInputValue={setInputValue} />
-      <BackgroundAnimate />
-      <LinkResult inputValue={inputValue} />
+      <div className="blur">
+        <InputShortener setInputValue={setInputValue} />
+        <BackgroundAnimate />
+        <LinkResult inputValue={inputValue} />
+      </div>
     </div>
   );
 }
