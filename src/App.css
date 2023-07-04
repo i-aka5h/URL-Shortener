@@ -1,3 +1,9 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 .container {
   height: 80vh;
   display: flex;
@@ -6,12 +12,40 @@
   justify-content: center;
 }
 
-.blur{
-  margin-top: 4rem;
-  border: 2px solid black;
-  padding: 4rem 10rem;
+
+.blur {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.408);
-  border-radius: 7rem;
+  border: 2px solid black;
+  border-radius: 3rem;
+  padding: 2rem 10rem;
+}
+
+@media screen and (max-width : 850px) {
+  .blur {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .blur {
+    width: 80%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width : 400px) {
+  .blur {
+    width: 90%;
+    height: 70%;
+  }
 }
 
 .inputContainer h1 {
@@ -87,6 +121,7 @@
 }
 .noData {
   color: #fff;
+  width: 100vw;
   font-size : 1.3rem;
   color: red;
 }
@@ -292,6 +327,7 @@
     transform-origin: -8vw 24vh;
     box-shadow: -40vmin 0 5.823822795493522vmin currentColor;
 }
+
 .background span:nth-child(19) {
     color: #E45A84;
     top: 16%;

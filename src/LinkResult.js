@@ -52,7 +52,7 @@ const LinkResult = ({ inputValue }) => {
             text={shortenLink}
             onCopy={() => setCopied(true)}
           >
-            <button className={copied ? "copied" : ""}>Copy the link</button>
+            <button className={copied ? "copied" : ""}>Copy link</button>
           </CopyToClipboard>
         </div>
       )}

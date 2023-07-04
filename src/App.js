@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="container">
       <div className="blur">
-        <InputShortener setInputValue={setInputValue} />
-        <BackgroundAnimate />
+          <InputShortener setInputValue={setInputValue} />
+          <BackgroundAnimate />
         <LinkResult inputValue={inputValue} />
       </div>
     </div>
