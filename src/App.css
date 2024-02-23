@@ -12,7 +12,6 @@
   justify-content: center;
 }
 
-
 .blur {
   width: 50%;
   height: 70%;
@@ -99,6 +98,7 @@
   padding: 0.5rem 1rem;
 }
 .result p {
+  background-color: rgba(0, 0, 0, 0.400);
   color: darkorange;
   border: 1px solid black;
   padding: 0.5rem 1rem;
@@ -114,6 +114,10 @@
   border: none;
 }
 
+.hide{
+top : -100%;
+}
+
 .result button.copied {
   background: #fff;
   color: var(--primary-color);
@@ -123,6 +127,7 @@
   color: #fff;
   width: 100vw;
   font-size : 1.3rem;
+  font-weight: bold;
   color: red;
 }
 
