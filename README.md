@@ -1,5 +1,5 @@
 # URL-Shortener
-A React.js based application that transforms long URLs into shorter ones using Shortcode API. Technologies used in the development of this project includes HTML, CSS, JavaScript and ReactJS.
+A full-stack web application that transforms long URLs into shorter ones using Shortcode API. Technologies used in the development of this project includes HTML, CSS, JavaScript, React.js, Express.js and MongoDB.
 
 Handles Invalid links, restricted links and private links as well, it is also equipped with a functionality that allows user to directly copy shortened URL to their clipboard contributing to a better user experience. 
 
