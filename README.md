@@ -1,5 +1,5 @@
 # URL-Shortener
-A React.js based application that transforms long URLs into shorter ones using Rapid API. Technologies used in the development of this project includes HTML, CSS, JavaScript and ReactJS.
+A React.js based application that transforms long URLs into shorter ones using Shortcode API. Technologies used in the development of this project includes HTML, CSS, JavaScript and ReactJS.
 
 Handles Invalid links, restricted links and private links as well, it is also equipped with a functionality that allows user to directly copy shortened URL to their clipboard contributing to a better user experience. 
 
@@ -18,9 +18,6 @@ npm install
 ```
 npm start
 ```
-
-### Rapid API
-https://rapidapi.com/ofoudane/api/url-shortener42/
 
 ### Background Animation
 https://wweb.dev/resources/animated-css-background-generator
