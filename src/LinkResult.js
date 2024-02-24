@@ -9,24 +9,16 @@ const LinkResult = ({ inputValue }) => {
   const [error, setError] = useState(false);
   const [trigger,setTrigger] = useState(true);
 
+  const base_url = "https://short-url-api-5fwd.onrender.com/";
   const fetchData = async () => {
+
     try {
       setLoading(true);
       setError(false);
       
       const options = {
-        method: "POST",
-        url: "https://url-shortener42.p.rapidapi.com/shorten/",
-        headers: {
-          "content-type": "application/json",
-          "X-RapidAPI-Key":
-            "0c4930f236msh09091024dc78c2ap1ad813jsn9da7c6fe8d63",
-          "X-RapidAPI-Host": "url-shortener42.p.rapidapi.com",
-        },
-        data: {
-          url: inputValue,
-          validity_duration: 10,
-        },
+        method: "GET",
+        url: base_url + "create?url=" + inputValue
       };
 
       const response = await axios.request(options);
